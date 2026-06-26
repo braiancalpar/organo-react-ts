@@ -6,7 +6,7 @@ interface BannerProps {
   textoAlternativo?: string;
 }
 
-export const Banner = ({ enderecoImagem, textoAlternativo }: BannerProps) => {
+const Banner = ({ enderecoImagem, textoAlternativo }: BannerProps) => {
   // JSX
   return (
     <header className="banner">
